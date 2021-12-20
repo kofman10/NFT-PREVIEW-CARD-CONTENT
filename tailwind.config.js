@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors:{
         'blue': '#0d192b',
-        'midnight': 'hsl(216, 50%, 16%)'
+        'midnight': 'hsl(216, 50%, 16%)',
+        'cyan': 'hsl(178, 100%, 50%)'
        },
     },
   },

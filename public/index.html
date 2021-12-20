@@ -8,13 +8,23 @@
     <link rel="stylesheet" href="output.css">
 </head>
 
-<body class="bg-blue flex justify-center items-center relative">
+<body class="bg-blue flex justify-center items-center relative text-xs">
 
-    <div class="bg-midnight h-5/6 w-5/6 rounded-xl sm:h-3/4 sm:w-1/4 object-fill overflow-auto">
-        <div class="mx-5 my-5 rounded-lg overflow-hidden ">
+    <div class="bg-midnight h-5/6 w-5/6 rounded-xl sm:h-3/4 sm:w-1/4">
+        
+        <div class="mx-5 my-5 rounded-lg overflow-hidden relative">
+            <div class="hover:bg-cyan opacity-50 w-full h-full absolute">
+                <div class="flex justify-center h-full items-center "> 
+                <svg  width="48" height="48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h48v48H0z"/><path d="M24 9C14 9 5.46 15.22 2 24c3.46 8.78 12 15 22 15 10.01 0 18.54-6.22 22-15-3.46-8.78-11.99-15-22-15Zm0 25c-5.52 0-10-4.48-10-10s4.48-10 10-10 10 4.48 10 10-4.48 10-10 10Zm0-16c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6Z" fill="#FFF" fill-rule="nonzero"/></g></svg>
+            </div>
+            </div>
+        
+              
             <img src="image-equilibrium.jpg" alt="image-equilibrium">
         </div>
-        <span class="mx-5 text-white">Equilibrium #3429</span>
+        
+        <span class="mx-5 text-white cursor-pointer text-lg hover:text-cyan">Equilibrium #3429</span>
+        <br>
         <br>
         <div class="mx-5 text-white text-left"> Our Equilibrium collecton promotes balance and calmness</div>
         <br>
@@ -23,7 +33,7 @@
                 <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg">
                     <path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"
                         fill="#00FFF8" />
-                </svg><span class="text-white ml-1.5">0.144eth</span>
+                </svg><span class="text-cyan ml-1.5">0.144eth</span>
             </div>
             <div class="flex justify-end items-center mr-5">
                 <svg class="" width="17" height="17" xmlns="http://www.w3.org/2000/svg">
@@ -40,7 +50,8 @@
             <div class="h-8 w-8 border-2 border-white  rounded-full">
                 <img src="image-avatar.png" alt="image-avatar">
             </div>
-            <span class="text-white ml-3">Creation of <span>Jules Wyvern</span></span>
+
+            <span class="text-white ml-3">Creation of <span class="hover:text-cyan cursor-pointer">Jules Wyvern</span></span>
         </footer>
     </div>
 </body>
