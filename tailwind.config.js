@@ -1,7 +1,8 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
-    
+    container:{ 
+      center: true},
     extend: {
       colors:{
         'blue': '#0d192b',
